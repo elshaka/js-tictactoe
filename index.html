@@ -11,17 +11,40 @@
       <script defer src="js/main.js" type="module"></script>
       <title>Tic Tac Toe</title>
   </head>
-  <body class="pl-xl-5 pr-xl-5 bg-lgrey container">
-    <div id="board" class="row">
-      <div class="col-4"><button class="btn btn-primary" data-number="1">-</button></div>
-      <div class="col-4"><button class="btn btn-primary" data-number="2">-</button></div>
-      <div class="col-4"><button class="btn btn-primary" data-number="3">-</button></div>
-      <div class="col-4"><button class="btn btn-primary" data-number="4">-</button></div>
-      <div class="col-4"><button class="btn btn-primary" data-number="5">-</button></div>
-      <div class="col-4"><button class="btn btn-primary" data-number="6">-</button></div>
-      <div class="col-4"><button class="btn btn-primary" data-number="7">-</button></div>
-      <div class="col-4"><button class="btn btn-primary" data-number="8">-</button></div>
-      <div class="col-4"><button class="btn btn-primary" data-number="9">-</button></div>
+  <body class="pl-xl-5 pr-xl-5 container">
+    <div class="row" id="modal">
+      <h1 class="modal-title" id="modalLabel">TicTacToe</h1>
     </div>
+    <div class="text-center">
+      <div class="namebox">
+        Player One:
+        <input id="inpPlayerOne" type="text">
+      </div>
+      <div class="namebox">
+        Player Two:
+        <input id="inpPlayerTwo" type="text">
+      </div>
+    </div>
+ 
+      <div id="board" class="shadow">
+        <div>
+          <div class="box btn-primary" data-number="1">-</div>
+          <div class="box btn-primary" data-number="2">-</div>
+          <div class="box btn-primary" data-number="3">-</div>
+        </div>
+        <div>
+          <div class="box btn-primary" data-number="4">-</div>
+          <div class="box btn-primary" data-number="5">-</div>
+          <div class="box btn-primary" data-number="6">-</div>
+        </div>
+        <div>
+          <div class="box btn-primary" data-number="7">-</div>
+          <div class="box btn-primary" data-number="8">-</div>
+          <div class="box btn-primary" data-number="9">-</div>
+        </div>
+      </div>
+      
+    <div id="startGameBtn" class="btn-warning"><h1> Start Game? </h1></div>
   </body>
+  
 </html>
