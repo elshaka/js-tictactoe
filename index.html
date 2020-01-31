@@ -13,23 +13,21 @@
   </head>
   <body class="pt-5 container">
     <h1>TicTacToe</h1>
-    <div class="card-body">
-      <div id="newGameScreen" class="newGameScreen">
-        <div class="form-group">
-          <label for="playerOneName">Player X Name</label>
-          <input id="playerOneName" type="text" class="form-control">
-        </div>
-        <div class="form-group">
-          <label for="playerTwoName">Player O Name</label>
-          <input id="playerTwoName" type="text" class="form-control">
-        </div>
-        <button id="startGameBtn" class="btn btn-primary">Start Game</button>
+    <div id="newGameScreen" class="newGameScreen">
+      <div class="form-group">
+        <label for="playerOneName">Player X Name</label>
+        <input id="playerOneName" type="text" class="form-control">
       </div>
-      <div id="boardScreen" class="boardScreen">
-        <h2 id="boardTitle" class="text-secondary"></h2>
-        <div id="board" class="board shadow"></div>
-        <button id="restartGameBtn" class="btn btn-primary">Restart Game</button>
+      <div class="form-group">
+        <label for="playerTwoName">Player O Name</label>
+        <input id="playerTwoName" type="text" class="form-control">
       </div>
+      <button id="startGameBtn" class="btn btn-primary">Start Game</button>
+    </div>
+    <div id="boardScreen" class="boardScreen">
+      <h2 id="boardTitle" class="text-secondary"></h2>
+      <div id="board" class="board shadow"></div>
+      <button id="restartGameBtn" class="btn btn-primary">Restart Game</button>
     </div>
   </body>
 </html>
