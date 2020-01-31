@@ -1,5 +1,5 @@
 # js-tictactoe
-A Tic-tac-toe game made in Javascript
+A Tic tac toe game made in Javascript
 
 ![screenshot](./screenshot.png)
 
