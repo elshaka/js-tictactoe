@@ -1,0 +1,25 @@
+{
+  "name": "js-tictactoe",
+  "version": "1.0.0",
+  "description": "A Tic-tac-toe game made in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elshaka/js-tictactoe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elshaka/js-tictactoe/issues"
+  },
+  "homepage": "https://github.com/elshaka/js-tictactoe#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}

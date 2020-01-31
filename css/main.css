@@ -1,0 +1,45 @@
+body {
+  max-width: 600px;
+}
+
+.boardScreen {
+  display: none;
+}
+
+.newGameScreen, .boardScreen {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.board {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  background-color: #1167b1;
+  border: 6px solid #03254c;
+  border-radius: 10px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  margin-bottom: 20px;
+}
+
+.box {
+  border: 4px solid #03254c;
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
