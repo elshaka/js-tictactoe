@@ -4,7 +4,7 @@ A Tic tac toe game made in Javascript
 ![screenshot](./screenshot.png)
 
 ## Live Link
-Live Githack Link: https://raw.githack.com/elshaka/js-tictactoe/tictactoe/index.html
+Live Githack Link: https://raw.githack.com/elshaka/js-tictactoe/development/index.html
 
 ## Built With
 
